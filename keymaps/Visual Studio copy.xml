@@ -1,4 +1,5 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="ChangesView.AddUnversioned" />
   <action id="CheckinProject" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -17,6 +18,9 @@
   <action id="ForceStepInto">
     <keyboard-shortcut first-keystroke="alt f11" />
   </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="shift f2" />
     <keyboard-shortcut first-keystroke="ctrl b" />
@@ -26,6 +30,9 @@
   <action id="RecentChangedFiles" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
   </action>
   <action id="SmartStepInto" />
   <action id="StepInto">
