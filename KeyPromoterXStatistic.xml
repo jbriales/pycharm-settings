@@ -1,36 +1,44 @@
 <application>
   <component name="KeyPromoterXStatistic">
     <option name="statistics">
-      <Statistic Action="Back">
+      <Statistic Action="Declaration">
         <Item>
-          <IdeaActionID>Back</IdeaActionID>
-          <ShortCut>'Ctrl+Alt+Left' or 'Button4 Click'</ShortCut>
-          <Description>Back</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="File Structure">
-        <Item>
-          <IdeaActionID>FileStructurePopup</IdeaActionID>
-          <ShortCut>'Ctrl+F12'</ShortCut>
-          <Description>File Structure</Description>
-          <Count>1</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Previous Method">
-        <Item>
-          <IdeaActionID>MethodUp</IdeaActionID>
-          <ShortCut>'Alt+Up'</ShortCut>
-          <Description>Previous Method</Description>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'Shift+F2' or 'Ctrl+B' or 'Ctrl+Button1 Click' or 'Button2 Click'</ShortCut>
+          <Description>Declaration</Description>
           <Count>4</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Settings...">
+      <Statistic Action="Delete...">
         <Item>
-          <IdeaActionID>ShowSettings</IdeaActionID>
-          <ShortCut>'Alt+F7'</ShortCut>
-          <Description>Settings...</Description>
+          <IdeaActionID>$Delete</IdeaActionID>
+          <ShortCut>'Delete'</ShortCut>
+          <Description>Delete...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Find">
+        <Item>
+          <IdeaActionID>ActivateFindToolWindow</IdeaActionID>
+          <ShortCut>'Alt+3'</ShortCut>
+          <Description>Find</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Find Usages">
+        <Item>
+          <IdeaActionID>FindUsages</IdeaActionID>
+          <ShortCut>'Alt+Shift+F7'</ShortCut>
+          <Description>Find Usages</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Paste from X clipboard">
+        <Item>
+          <IdeaActionID>EditorPasteFromX11</IdeaActionID>
+          <ShortCut>'Button2 Click'</ShortCut>
+          <Description>Paste from X clipboard</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
     </option>

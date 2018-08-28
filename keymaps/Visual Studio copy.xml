@@ -22,6 +22,9 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
   <action id="ForceStepInto">
     <keyboard-shortcut first-keystroke="alt f11" />
   </action>
@@ -29,7 +32,7 @@
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
   <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="ctrl alt a" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="shift f2" />
@@ -41,6 +44,7 @@
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="GotoLine" />
+  <action id="GotoSuperMethod" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
