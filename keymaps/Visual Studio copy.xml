@@ -1,0 +1,131 @@
+<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="ActivateTerminalToolWindow" />
+  <action id="AutoIndentLines">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="ChangesView.AddUnversioned" />
+  <action id="CheckinProject" />
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="alt f5" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl f9" />
+  </action>
+  <action id="Diff.FocusOppositePane" />
+  <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="EditBreakpoint" />
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="shift button1" />
+  </action>
+  <action id="EditorContextInfo" />
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="ExecuteInPyConsoleAction">
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="ExternalJavaDoc">
+    <keyboard-shortcut first-keystroke="shift f1" />
+    <keyboard-shortcut first-keystroke="ctrl f1" />
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="ForceStepInto">
+    <keyboard-shortcut first-keystroke="alt f11" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="shift f2" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="escape" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
+  <action id="RecentChangedFiles" />
+  <action id="ResizeToolWindowLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="ResizeToolWindowRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="ShowExecutionPoint">
+    <keyboard-shortcut first-keystroke="alt multiply" />
+    <keyboard-shortcut first-keystroke="alt f9" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl alt s" />
+  </action>
+  <action id="SmartStepInto" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f11" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="ToggleWindowedMode">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="Vcs.Push" />
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="alt f12" />
+  </action>
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
+</keymap>
