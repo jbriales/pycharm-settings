@@ -4,6 +4,8 @@
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="ActivateTerminalToolWindow" />
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="AutoIndentLines">
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
@@ -11,6 +13,9 @@
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
   <action id="ChangesView.AddUnversioned" />
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="CheckinProject" />
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="alt f5" />
@@ -58,6 +63,9 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="ctrl alt a" />
   </action>
@@ -73,6 +81,7 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
+  <action id="GotoNextError" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
@@ -86,6 +95,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="RecentChangedFiles" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="ResizeToolWindowLeft">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
@@ -94,6 +107,9 @@
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="ShowExecutionPoint">
     <keyboard-shortcut first-keystroke="alt multiply" />
@@ -125,6 +141,8 @@
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="alt f12" />
   </action>
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
