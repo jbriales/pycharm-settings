@@ -43,6 +43,7 @@
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="EditorToggleCase" />
   <action id="ExecuteInPyConsoleAction">
     <keyboard-shortcut first-keystroke="f9" />
   </action>
@@ -56,6 +57,9 @@
   </action>
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="ForceStepInto">
     <keyboard-shortcut first-keystroke="alt f11" />
@@ -110,6 +114,7 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
