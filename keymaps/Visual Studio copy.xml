@@ -4,6 +4,8 @@
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="ActivateTerminalToolWindow" />
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="AutoIndentLines">
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
@@ -11,6 +13,9 @@
     <keyboard-shortcut first-keystroke="alt left" />
   </action>
   <action id="ChangesView.AddUnversioned" />
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="CheckinProject" />
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="alt f5" />
@@ -38,6 +43,7 @@
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
   <action id="EditorSelectWord" />
+  <action id="EditorToggleCase" />
   <action id="ExecuteInPyConsoleAction">
     <keyboard-shortcut first-keystroke="f9" />
   </action>
@@ -52,17 +58,22 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
   <action id="ForceStepInto">
     <keyboard-shortcut first-keystroke="alt f11" />
   </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="ctrl alt a" />
   </action>
   <action id="GotoDeclaration">
-    <keyboard-shortcut first-keystroke="shift f2" />
     <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
@@ -73,11 +84,16 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
+  <action id="GotoNextError" />
+  <action id="GotoPreviousError" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="escape" />
+  </action>
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="shift f2" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl tab" />
@@ -86,6 +102,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="RecentChangedFiles" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="ResizeToolWindowLeft">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
@@ -94,6 +113,10 @@
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="ShelveChanges.UnshelveWithDialog" />
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="ShowExecutionPoint">
     <keyboard-shortcut first-keystroke="alt multiply" />
@@ -125,6 +148,8 @@
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="alt f12" />
   </action>
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
