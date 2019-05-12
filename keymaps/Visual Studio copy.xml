@@ -102,6 +102,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="RecentChangedFiles" />
+  <action id="RecentLocations" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
