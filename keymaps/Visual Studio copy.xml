@@ -149,6 +149,9 @@
   <action id="ViewBreakpoints">
     <keyboard-shortcut first-keystroke="alt f12" />
   </action>
+  <action id="VimPluginToggle">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
   <action id="editRunConfigurations">
